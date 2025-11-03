@@ -6,12 +6,12 @@ public class LottoGeneratorServiceTest {
     private final LottoGeneratorService lottoGeneratorService = new LottoGeneratorService();
 
     @Test
-    void 로또_구입_리스트() {
+    void buying_lotto_list() {
         System.out.println(lottoGeneratorService.buyingLottoes(3));
     }
 
     @Test
-    void 랜덤_로또_번호_출력() {
+    void output_random_lotto_num() {
         System.out.println(lottoGeneratorService.generateLottoNums());
     }
 }
